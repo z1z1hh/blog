@@ -66,7 +66,7 @@ function App() {
       <Modal2 />
       <input type="text" onChange={(e) => {
         setInputText(e.target.value)
-       // console.log(inputText)
+        console.log(inputText)
       }}></input>
       <button onClick={() => {
         // 아무것도 입력 안 한 경우엔 동작 막기
